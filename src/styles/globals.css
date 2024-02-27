@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+
+  /* min-width: 0; */
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  /* not draggable */
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  max-width: 100vw;
+  color: #fff;
+  overflow-x: hidden;
+
+  user-select: none;
+
+  background-color: #121417;
+}
+
+a:hover, button:hover {
+  opacity: 0.4;
+}
+
+
+.mantine-AreaChart-axis {
+  color: #c0c0c0;
+}
+
+.mantine-Autocomplete-input, .mantine-Autocomplete-root, .mantine-Autocomplete-wrapper {
+  background-color: transparent;
+}
+
+.m-8fb7ebe7 {
+  background-color: #1c2126 !important; /* Change the background color */
+  color: #fff !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.custom-wrapper {
+  background-color: #1c2126; /* Change the background color */
+}
+
+.custom-input {
+  color: #333; /* Change the text color */
+}
+
+.custom-dropdown {
+  background-color: #1c2126 !important; /* Change the background color */
+  padding: 0 !important;
+  border: none !important;
+}
+
+.custom-options {
+  background-color: #1c2126; /* Change the background color */
+  color: #fff;
+  margin: 0;
+}
+
+.custom-option:hover {
+  background-color: #2d333a; /* Change the background color */
+  color: #fff;
+}
+
+.custom-option {
+  background-color: #1c2126; /* Change the background color */
+}
+
